@@ -1,0 +1,136 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.head{
+  border-bottom : 5px solid #000033;
+
+}
+
+header{
+  width: 100%;
+  height: 100px;
+  display: block;
+  position: relative;
+
+
+}
+
+header h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 75px;
+  height: 100px;
+  background-image: url("../img/icon.jpg");
+  background-repeat:no-repeat;
+  background-position:17% 0%;;
+
+}
+
+.wrapper{
+  background: green;
+}
+
+.navigator{
+  display: inline;
+  line-height: 22px;
+  color: #444;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+}
+.navigator li {
+  display: inline;
+  margin-left: 1px;
+  margin-right: 50px;
+}
+
+.navigator li a {
+  text-decoration: none;
+}
+
+.navigator li a:hover{
+  color: green;
+
+}
+.separator{
+  width: 100%
+  background: red;
+}
+.content{
+  height: 1000px;
+
+  line-height: 22px;
+  color: #444;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.grid_4{
+  background: skyblue ;
+  color: black;
+}
+
+.grid_4 img{
+  margin-left: 0;
+}
+
+.sep{
+  height: 50px;
+}
+
+
+
+.footer{
+  background: #280000;
+  color : white;
+  border-top : 10px solid #000033;
+  font-size: 20px;
+}
+.footer h2{
+  color: white;
+  margin-left: 30px;
+
+}
+.footer li{
+  list-style-type:none
+}
+.footer li a{
+  text-decoration: none
+
+}
+
+.footer li a:hover{
+  color: green;
+  font-size: 22px;
+}
+
+
+.column{
+  background: none;
+}
+
+.sociallinks img{
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.sociallinks a{
+  text-decoration: none;
+}
+
+.sociallinks a:hover{
+  color: green;
+  font-size: 22px;
+}
+
+.sociallinks h2{
+  margin-left: 0px;
+}
+
+
+.hero{
+  background: skyblue;
+}
